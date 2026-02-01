@@ -1,0 +1,62 @@
+#education-h1 {
+    padding-top: 2%;
+    text-align: right;
+    padding-right: 15vw;
+    font: bold 300% "Lucida Handwriting", sans-serif;
+}
+
+#bu-pic {
+    width: 15vw;
+    height: 20vh;
+    max-height: 100%;
+}
+
+#ojr-pic {
+    width: 15vw;
+    height: 20vh;
+    max-height: 100%;
+    margin-top: 5%;
+}
+
+#insideH1-education {
+    display: flex;
+    margin-top: 1vh;
+}
+
+#edu-content {
+    background-color: #e5effd;
+    margin: 1vh 1vw 1vh;
+    border: 1px solid #e5effd;
+    padding: 3% 3% 3% 3%;
+}
+
+#edu-pics {
+    display: flex;
+    flex-direction: column;
+}
+
+.educationTitle {
+    font: 2vh "Lucida Console", Monaco, monospace;
+}
+
+.educationPara {
+    font: 2vh "Lucida Console", Monaco, monospace;
+    padding-left: 2vw;
+    padding-top: 1vw;
+    padding-bottom: 10vh;
+    text-align: left;
+}
+
+#notable-edu {
+    font: 2vh "Lucida Console", Monaco, monospace;
+}
+
+#notable-edu-ul {
+    font: 1.5vh "Lucida Console", Monaco, monospace;
+    padding-top: 1vh;
+}
+
+#notable-edu-ul li {
+    font: 1.5vh "Lucida Console", Monaco, monospace;
+    padding-bottom: 1vh;
+}

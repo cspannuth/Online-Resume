@@ -1,0 +1,50 @@
+main {
+    height: 110vh;
+}
+
+#prof-h1 {
+    padding-top: 2%;
+    text-align: center;
+    font: bold 300% "Lucida Handwriting", sans-serif;
+}
+
+.experiencePara {
+    text-align: left;
+    font-size: 150%;
+    padding: 1vh 1vw 1vh 1vw;
+    margin-bottom: 1vh;
+}
+
+#insideH1-experience {
+    font: 53% "Lucida Console", Monaco, monospace;
+    border: 1px solid #e5effd;
+    background-color: #e5effd;
+    margin: 2vh 1vw 1vh 1vw;
+    padding: 2vh 1vw 1vh 1vw;
+}
+
+#insideH1-experience ul {
+    margin-bottom: 2vh;
+}
+
+#insideH1-experience ul li {
+    margin-top: 1vh;
+    font-size: 150%;
+    margin-bottom: 1vh;
+}
+
+.pos-title {
+    margin-bottom: 1vh;
+}
+
+@media screen and (max-width: 1250px) {
+    main {
+        height: 130vh;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    main {
+        height: 150vh;
+    }
+}

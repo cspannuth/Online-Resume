@@ -1,0 +1,26 @@
+#skills-h1 {
+    text-align: center;
+    font: bold 300% "Lucida Handwriting", sans-serif;
+    padding-top: 2%;
+}
+
+#insideH1-skills {
+    background-color: #e5effd;
+    margin: 1vh 1vw 1vh;
+    border: 1px solid #e5effd;
+    padding: 3% 3% 3% 3%;
+}
+
+.skills-titles {
+    font: 2vh "Lucida Console", Monaco, monospace;
+    padding-bottom: 1vh;
+    padding-top: 1vh;
+}
+
+#insideH1-skills ul {
+    font: 1.5vh "Lucida Console", Monaco, monospace;
+}
+
+#insideH1-skills ul li {
+    padding-bottom: 1vh;
+}

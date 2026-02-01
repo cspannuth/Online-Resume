@@ -1,0 +1,25 @@
+.projectsPara {
+    font: 1.5vh "Lucida Console", Monaco, monospace;
+    padding-left: 1.3vw;
+    padding-bottom: 1vw;
+}
+
+a {
+    color: black;
+}
+
+main {
+    height: 120vh;
+}
+
+@media screen and (max-width: 1250px) {
+    main {
+        height: 130vh;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    main {
+        height: 150vh;
+    }
+}

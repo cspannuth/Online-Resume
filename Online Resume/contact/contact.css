@@ -1,0 +1,18 @@
+a {
+    color: black;
+}
+
+#firstTitle {
+    padding-bottom: 2vh;
+    font: 2vh "Lucida Console", Monaco, monospace;
+}
+
+.skills-titles {
+    padding-top: 5vh;
+}
+
+.contactPara {
+    font: 1.5vh "Lucida Console", Monaco, monospace;
+    padding-left: 1.3vw;
+    padding-bottom: 1vw;
+}
