@@ -93,7 +93,7 @@ main {
     margin-left: 2%;
     border: 1px solid #e5effd;
     padding: 5% 3% 5% 5%;
-    font: 2vh "Lucida Console", Monaco, monospace;
+    font: calc(2px + 2vh) "Lucida Console", Monaco, monospace;
     text-align: center;
 }
 
