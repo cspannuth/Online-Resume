@@ -110,6 +110,12 @@ footer {
     text-align: center;
 }
 
+@media screen and (max-width: 500px) {
+    main {
+        height: 150vh;
+    }
+}
+
 @media screen and (max-width: 750px) {
     #navMainWrapper {
         display: flex;
