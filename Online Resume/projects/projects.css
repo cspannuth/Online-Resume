@@ -23,9 +23,3 @@ main {
         height: 150vh;
     }
 }
-
-@media screen and (max-width: 500px) {
-    main {
-        height: 200vh;
-    }
-}
