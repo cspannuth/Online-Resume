@@ -11,7 +11,7 @@ import Contact from "./components/mains/Contact.tsx";
 import styled from "styled-components";
 
 const Body = styled.div`
-    width: 80%;
+
     min-height: 100vh;
     margin: 0 auto;
     display: flex;
@@ -24,6 +24,10 @@ const Body = styled.div`
 
 const Page = styled.div`
     width: 80%;
+    @media screen and (max-width: 750px) {
+        width: 100%;
+    }
+    
 `;
 
 function Root() {

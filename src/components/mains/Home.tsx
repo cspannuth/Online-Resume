@@ -7,11 +7,12 @@ const Main = styled.main`
 `;
 
 const HomeH1 = styled.h1`
-    padding-left: 35%;
+    padding-left: 25%;
     padding-top: 2%;
-    margin-bottom: 1%;
+    padding-bottom: 1%;
     text-align: center;
     font: bold 300% "Lucida Handwriting", sans-serif;
+    
 `;
 
 const P = styled.p`
@@ -20,8 +21,16 @@ const P = styled.p`
     margin-left: 2%;
     border: 1px solid #e5effd;
     padding: 5% 3% 5% 5%;
-    font: calc(2px + 2vh) "Lucida Console", Monaco, monospace;
+    font: calc(2px + 1.2vw) "Lucida Console", Monaco, monospace;
     text-align: center;
+
+    @media screen and (max-width: 1000px) {
+        font-size: calc(2px + 1.8vw);
+    }
+    
+    @media screen and (max-width: 750px) {
+        font-size: calc(2px + 3vw);
+    }
 `;
 
 const Image = styled.img`
@@ -29,10 +38,18 @@ const Image = styled.img`
     height: 40vh;
     max-height: 100%;
     padding-left: 2%;
+
+    @media screen and (max-width: 750px) {
+        width: 30vw;
+        height: 20vh;
+    }
 `;
 
 const Div = styled.div`
     display: flex;
+    
+    @media screen and (max-width: 750px) {
+    }
 `;
 
 export default function Home() {

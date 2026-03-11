@@ -4,7 +4,6 @@ import styled from "styled-components";
 const FooterS = styled.footer`
     text-align: center;
     background-color: #c0d6ef;
-    width: 80%;
     margin: auto;
 `;
 

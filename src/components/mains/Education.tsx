@@ -11,6 +11,10 @@ const BUpic = styled.img`
     width: 15vw;
     height: 20vh;
     max-height: 100%;
+    
+    @media screen and (max-width: 750px) {
+        width: 30vw;
+    }
 `;
 
 const OJRpic = styled.img`
@@ -18,6 +22,10 @@ const OJRpic = styled.img`
     height: 20vh;
     max-height: 100%;
     margin-top: 5%;
+    
+    @media screen and (max-width: 750px) {
+        width: 30vw;
+    }
 `;
 
 const InsideH1Div = styled.div`

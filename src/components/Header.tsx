@@ -11,7 +11,7 @@ const HeaderS = styled.header`
     text-align: left;
     background-color: #304983;
     color: #f1f2f2;
-    width: 80%;
+    <!--
     margin: auto;
 `;
 
