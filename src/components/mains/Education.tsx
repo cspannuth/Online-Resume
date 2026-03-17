@@ -4,7 +4,7 @@ import {useEffect} from "react";
 const Title= styled.h1`
     padding-top: 2%;
     text-align: center;
-    font: bold calc(2px + 5vh) "Lucida Handwriting", sans-serif;
+    font: bold calc(2px + 5vh) "Lucida Handwriting", cursive;
 `;
 
 const BUpic = styled.img`

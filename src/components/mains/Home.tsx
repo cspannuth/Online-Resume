@@ -7,11 +7,10 @@ const Main = styled.main`
 `;
 
 const HomeH1 = styled.h1`
-    padding-left: 25%;
     padding-top: 2%;
-    padding-bottom: 1%;
+    padding-bottom: 2%;
     text-align: center;
-    font: bold 300% "Lucida Handwriting", sans-serif;
+    font: bold calc(2px + 5vh) "Lucida Handwriting", cursive;
     
 `;
 
@@ -20,7 +19,7 @@ const P = styled.p`
     margin-right: 2%;
     margin-left: 2%;
     border: 1px solid #e5effd;
-    padding: 5% 3% 5% 5%;
+    padding: 5%;
     font: calc(2px + 1.2vw) "Lucida Console", Monaco, monospace;
     text-align: center;
 
@@ -69,7 +68,7 @@ export default function Home() {
                     A dedicated computer science student at Boston University with a strong passion for technology. My
                     experience ranges from developing and testing automated bots to purchasing limited-edition sneakers
                     during my youth to managing IT infrastructure for numerous commercial clients.
-                    <br/><br/>I am currently seeking a software engineering internship where I can leverage my technical
+                    <br/><br/>Currently seeking a software engineering internship where I can leverage my technical
                     skills, create problem-solving abilities, and entrepreneurial mindset in a dynamic, results-oriented
                     environment.
                     <br/><br/>Growing up in a manufacturing-focused upbringing, I developed a keen interest in this

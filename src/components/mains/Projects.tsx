@@ -4,7 +4,7 @@ import {useEffect} from "react";
 
 const Title = styled.h1`
     text-align: center;
-    font: bold calc(2px + 5vh) "Lucida Handwriting", sans-serif;
+    font: bold calc(2px + 5vh) "Lucida Handwriting", cursive;
     padding-top: 2%;
 `;
 

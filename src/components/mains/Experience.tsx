@@ -4,7 +4,7 @@ import {useEffect} from "react";
 const Title = styled.h1`
     padding-top: 2%;
     text-align: center;
-    font: bold calc(2px + 5vh) "Lucida Handwriting", sans-serif;
+    font: bold calc(2px + 5vh) "Lucida Handwriting", cursive;
 `;
 
 const ContentWrapper= styled.div`
@@ -16,13 +16,19 @@ const ContentWrapper= styled.div`
 `;
 
 const PosTitle = styled.h1`
+    margin-top: 3vh;
     margin-bottom: 1vh;
+    font-size: calc(2px + 2vh);
+`;
+
+const FirstPosTitle = styled(PosTitle)`
+    margin-top: 0;
 `;
 
 const PosContent = styled.p`
     text-align: left;
-    font-size: calc(2px + 1.3vh);
-    padding: 1vh 1vw 1vh 1vw;
+    font-size: calc(2px + 1.5vh);
+    padding: 0.5vh 1vw 1vh 1vw;
     margin-bottom: 1vh;
 `;
 
@@ -32,7 +38,7 @@ const Ul = styled.ul`
 
 const Li = styled.li`
     margin-top: 1vh;
-    font-size: calc(2px + 1.2vh);
+    font-size: calc(2px + 1.3vh);
     margin-bottom: 1vh;
 `;
 
@@ -41,6 +47,7 @@ export default function Experience() {
         document.title = "Experience | Resume"
     });
 
+    // Might want to fix formatting
     return (
         <main>
             <Title>
@@ -48,9 +55,8 @@ export default function Experience() {
             </Title>
 
             <ContentWrapper>
-                <PosTitle>IT Technician | Laughing Rock Technology, LLC | Reading, PA | Aug 2025 -
-                    Present</PosTitle>
-                <br/>
+                <FirstPosTitle>IT Technician | Laughing Rock Technology, LLC | Reading, PA | Aug 2025 -
+                    Present</FirstPosTitle>
                 <PosContent>Currently working with a team of technicians on a commercial scale to
                     provide information technology, networking, and
                     cybersecurity solutions to hundreds of clients across the Greater Berks area.</PosContent>

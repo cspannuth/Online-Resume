@@ -3,7 +3,7 @@ import {useEffect} from "react";
 
 const Title = styled.h1`
     text-align: center;
-    font: bold calc(2px + 5vh) "Lucida Handwriting", sans-serif;
+    font: bold calc(2px + 5vh) "Lucida Handwriting", cursive;
     padding-top: 2%;
 `;
 
@@ -21,10 +21,11 @@ const SkillTitle = styled.h1`
 `;
 
 const Ul = styled.ul`
-    font: calc(2px + 1.2vh) "Lucida Console", Monaco, monospace;
+    
 `;
 
 const Li = styled.li`
+    font: calc(2px + 1.3vh) "Lucida Console", Monaco, monospace;
     padding-bottom: 1vh;
 `;
 

@@ -64,12 +64,12 @@ export default function Nav() {
     return (
             <NavBar>
                 <NavUl>
-                    <NavLi><NavLink to="/index.html">Home</NavLink></NavLi>
-                    <NavLi><NavLink to="/experience/experience.html">Experience</NavLink></NavLi>
-                    <NavLi><NavLink to="/education/education.html">Education</NavLink></NavLi>
-                    <NavLi><NavLink to="/skills/skills.html">Skills</NavLink></NavLi>
-                    <NavLi><NavLink to="/projects/projects.html">Projects</NavLink></NavLi>
-                    <NavLi><NavLink to="/contact/contact.html">Contact</NavLink></NavLi>
+                    <NavLi><NavLink to="/index">Home</NavLink></NavLi>
+                    <NavLi><NavLink to="/experience">Experience</NavLink></NavLi>
+                    <NavLi><NavLink to="/education">Education</NavLink></NavLi>
+                    <NavLi><NavLink to="/skills">Skills</NavLink></NavLi>
+                    <NavLi><NavLink to="/projects">Projects</NavLink></NavLi>
+                    <NavLi><NavLink to="/contact">Contact</NavLink></NavLi>
                 </NavUl>
             </NavBar>
     );
