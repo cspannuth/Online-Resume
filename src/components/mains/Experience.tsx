@@ -55,8 +55,14 @@ export default function Experience() {
             </Title>
 
             <ContentWrapper>
-                <FirstPosTitle>IT Technician | Laughing Rock Technology, LLC | Reading, PA | Aug 2025 -
-                    Present</FirstPosTitle>
+                <FirstPosTitle>Software Engineer | Laughing Rock Technology, LLC | Reading, PA | March 2026 - Present</FirstPosTitle>
+                <PosContent>Currently working as a software engineer contributing to a variety of projects which serve our commercial clients.</PosContent>
+                <Ul>
+                    <Li>Tied custom APIs into mainstream CRMs to allow end users to modify data from a private Postgres database.</Li>
+                    <Li>Developed programs and scripts to automate essential and repetitive tasks saving 10+ hours of technician time per week.</Li>
+                </Ul>
+                <PosTitle>IT Technician | Laughing Rock Technology, LLC | Reading, PA | Aug 2025 -
+                    Apr 2026</PosTitle>
                 <PosContent>Currently working with a team of technicians on a commercial scale to
                     provide information technology, networking, and
                     cybersecurity solutions to hundreds of clients across the Greater Berks area.</PosContent>
@@ -75,7 +81,7 @@ export default function Experience() {
                         ensuring security and compliance through 2FA for 30+ tenants.
                     </Li>
                 </Ul>
-                <PosTitle>Line Cook | Bennett's Sandwich Shop | Boston, MA | Mar 2024 - Sept 2025</PosTitle>
+                <PosTitle>Line Cook | Bennett's Sandwich Shop | Boston, MA | Mar 2024 - May 2025</PosTitle>
                 <PosContent>Previously oversaw food production and quality control within the
                     restaurant.</PosContent>
                 <PosTitle>Team Lead | Panera Bread | Exton, PA | May 2021 - Nov 2023</PosTitle>
