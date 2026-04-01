@@ -4,14 +4,14 @@
 
 ---
 
-## 🚀 Features
+## Features
 - React based interactive website with Styled Components
 - Single Page Application format
 - Segmented tsx files for effortless modifiability and reusability.
 
 ---
 
-## 🛠 Tech Stack
+## Tech Stack
 
 **Languages**
 - TypeScript
@@ -20,7 +20,7 @@
 
 ---
 
-## 👤 Author
+## Author
 
 William Spannuth 
 
