@@ -44,6 +44,8 @@ export default function Projects() {
         document.title = "Projects | Resume"
     });
 
+    // Add ahooks library, possibly use hover mechanisms and such to improve the page.
+
     return (
         <main>
         <Title>

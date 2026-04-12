@@ -11,7 +11,6 @@ const HeaderS = styled.header`
     text-align: left;
     background-color: #304983;
     color: #f1f2f2;
-    <!--
     margin: auto;
 `;
 
@@ -28,7 +27,7 @@ export default function Header() {
                 Connor Spannuth
             </Name>
             <Summary>
-                The online resume of an aspiring Software Engineer
+                The online resume of a Software Engineer with a concentration on cybersecurity and compliance
             </Summary>
         </HeaderS>
     );

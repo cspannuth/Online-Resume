@@ -21,7 +21,7 @@ const OJRpic = styled.img`
     width: 15vw;
     height: 20vh;
     max-height: 100%;
-    margin-top: 5%;
+    margin-top: 30%;
     
     @media screen and (max-width: 750px) {
         width: 30vw;
@@ -44,6 +44,7 @@ const ImagesDiv = styled.div`
     display: flex;
     flex-direction: column;
     margin-left: 7%;
+    margin-right: 5%;
 `;
 
 const DegreeTitles = styled.h1`
@@ -92,7 +93,6 @@ export default function Education() {
                     <DegreeInfo>Graduated with honors in 2023.</DegreeInfo>
                     <DegreeTitles>Notable coursework taken:</DegreeTitles>
                     <CourseworkUl>
-                        <CourseworkLi>CS320: Concepts of Programming Languages</CourseworkLi>
                         <CourseworkLi>CS330: Analysis of Algorithms</CourseworkLi>
                         <CourseworkLi>CS391: Web Development with React</CourseworkLi>
                         <CourseworkLi>CS411: Software Engineering</CourseworkLi>

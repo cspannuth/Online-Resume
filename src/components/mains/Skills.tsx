@@ -34,6 +34,8 @@ export default function Skills() {
         document.title = "Skills | Resume"
     });
 
+    // Re-size main card and fit other items into page. Fill more space
+
     return (
         <main>
             <Title>

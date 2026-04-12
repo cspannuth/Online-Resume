@@ -47,7 +47,7 @@ export default function Experience() {
         document.title = "Experience | Resume"
     });
 
-    // Might want to fix formatting
+    // Could add new layout for mobile.
     return (
         <main>
             <Title>
@@ -60,6 +60,7 @@ export default function Experience() {
                 <Ul>
                     <Li>Tied custom APIs into mainstream CRMs to allow end users to modify data from a private Postgres database.</Li>
                     <Li>Developed programs and scripts to automate essential and repetitive tasks saving 10+ hours of technician time per week.</Li>
+                    <Li>Built custom software solutions to solve client-specific problems with respect to security and compliance.</Li>
                 </Ul>
                 <PosTitle>IT Technician | Laughing Rock Technology, LLC | Reading, PA | Aug 2025 -
                     Apr 2026</PosTitle>
