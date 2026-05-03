@@ -1,4 +1,3 @@
-import {Link} from "react-router";
 import styled from "styled-components";
 
 const NavBar = styled.nav`
@@ -10,11 +9,16 @@ const NavBar = styled.nav`
     text-align: center;
     background-color: #f1f2f2;
     width: 20%;
-    height: 20%;
+    position: sticky;
+    top: 2vh;
     
     @media screen and (max-width: 750px) {
         background-color: transparent;
         margin: 0 auto;
+        position: static;
+        width: 100%;
+        padding: 2vh 0;
+        overflow-x: auto;
     }
     
 `;
@@ -24,21 +28,24 @@ const NavUl = styled.ul`
     padding-left: 2vw;
     
     @media screen and (max-width: 750px) {
-        margin-right: 3vw;
+        margin: 0;
+        padding: 0 2vw;
         display: flex;
         justify-content: center;
+        gap: 2vw;
+        flex-wrap: nowrap;
     }
     
 `;
 
 const NavLi = styled.li`
     @media screen and (max-width: 750px) {
-        margin: 5% 5% 5% 5%;
-        font-size: calc(2px + 1vh);
+        margin: 0;
+        flex: 0 0 auto;
     }
 `;
 
-const NavLink = styled(Link)`
+const NavLink = styled.a`
     text-decoration: none;
     border: black solid 1px;
     padding-bottom: 5%;
@@ -50,7 +57,8 @@ const NavLink = styled(Link)`
     margin-bottom: 10%;
     
     @media screen and (max-width: 750px) {
-        padding: 1vh 1vw 1vh 1vw;
+        padding: 1vh 1.5vw;
+        white-space: nowrap;
         
     }
 
@@ -64,12 +72,12 @@ export default function Nav() {
     return (
             <NavBar>
                 <NavUl>
-                    <NavLi><NavLink to="/index">Home</NavLink></NavLi>
-                    <NavLi><NavLink to="/experience">Experience</NavLink></NavLi>
-                    <NavLi><NavLink to="/education">Education</NavLink></NavLi>
-                    <NavLi><NavLink to="/skills">Skills</NavLink></NavLi>
-                    <NavLi><NavLink to="/projects">Projects</NavLink></NavLi>
-                    <NavLi><NavLink to="/contact">Contact</NavLink></NavLi>
+                    <NavLi><NavLink href="#home">Home</NavLink></NavLi>
+                    <NavLi><NavLink href="#experience">Experience</NavLink></NavLi>
+                    <NavLi><NavLink href="#education">Education</NavLink></NavLi>
+                    <NavLi><NavLink href="#skills">Skills</NavLink></NavLi>
+                    <NavLi><NavLink href="#projects">Projects</NavLink></NavLi>
+                    <NavLi><NavLink href="#contact">Contact</NavLink></NavLi>
                 </NavUl>
             </NavBar>
     );

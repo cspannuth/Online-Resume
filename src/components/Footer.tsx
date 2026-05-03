@@ -1,4 +1,3 @@
-import {Link} from "react-router";
 import styled from "styled-components";
 
 const FooterS = styled.footer`
@@ -10,7 +9,7 @@ const FooterS = styled.footer`
 export default function Footer() {
     return(
         <FooterS>
-            <p>All rights reserved <Link to={``}>Credits</Link> &copy;</p>
+            <p>All rights reserved <a href="#home">Credits</a> &copy;</p>
         </FooterS>
     );
 }
