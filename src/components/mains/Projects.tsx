@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 const Title = styled.h1`
     text-align: center;
-    font: bold calc(2px + 5vh) "Lucida Handwriting", cursive;
+    font: bold calc(2px + 5vh) "Lucida Handwriting", "Courgette", cursive;
     padding-top: 2%;
 `;
 

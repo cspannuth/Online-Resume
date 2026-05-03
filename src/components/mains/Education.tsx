@@ -3,7 +3,7 @@ import styled from "styled-components";
 const Title= styled.h1`
     padding-top: 2%;
     text-align: center;
-    font: bold calc(2px + 5vh) "Lucida Handwriting", cursive;
+    font: bold calc(2px + 5vh) "Lucida Handwriting", "Courgette", cursive;
 `;
 
 const BUpic = styled.img`
