@@ -9,7 +9,9 @@ const HomeH1 = styled.h1`
     padding-top: 2%;
     padding-bottom: 2%;
     text-align: center;
-    font: bold calc(2px + 5vh) "Lucida Handwriting", "Courgette", cursive;
+    font-family: "Lucida Handwriting", "Courgette", cursive;
+    font-size: calc(2px + 5vh);
+    font-weight: bold;
     
 `;
 

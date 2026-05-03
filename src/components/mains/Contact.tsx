@@ -8,7 +8,9 @@ const ContentWrapper = styled.div`
 
 const Title = styled.h1`
     text-align: center;
-    font: bold calc(2px + 5vh) "Lucida Handwriting", "Courgette", cursive;
+    font-family: "Lucida Handwriting", "Courgette", cursive;
+    font-size: calc(2px + 5vh);
+    font-weight: bold;
     padding-top: 2%;
 `;
 

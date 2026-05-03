@@ -3,7 +3,9 @@ import styled from "styled-components";
 const Title = styled.h1`
     padding-top: 2%;
     text-align: center;
-    font: bold calc(2px + 5vh) "Lucida Handwriting", "Courgette", cursive;
+    font-family: "Lucida Handwriting", "Courgette", cursive;
+    font-size: calc(2px + 5vh);
+    font-weight: bold;
 `;
 
 const ContentWrapper= styled.div`
