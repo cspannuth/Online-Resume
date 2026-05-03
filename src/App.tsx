@@ -10,8 +10,6 @@ import Contact from "./components/mains/Contact.tsx";
 import styled, {createGlobalStyle} from "styled-components";
 
 const GlobalStyle = createGlobalStyle`
-    @import url('https://fonts.googleapis.com/css2?family=Courgette&display=swap');
-
     html {
         scroll-behavior: smooth;
     }
