@@ -3,7 +3,7 @@ import styled from "styled-components";
 const Title = styled.h1`
     padding-top: 2%;
     text-align: center;
-    font-family: "Lucida Handwriting", "Courgette", cursive;
+    font-family: "Lucida Handwriting", "Lucida Console", Monaco, monospace;
     font-size: calc(2px + 5vh);
     font-weight: bold;
 `;
