@@ -1,39 +1,47 @@
 import styled from "styled-components";
 
 const NavBar = styled.nav`
-    margin-top: 2%;
-    margin-left: 2%;
-    padding-top: 2%;
-    padding-bottom: 1%;
-    padding-right: 2%;
+    margin-top: 1.5rem;
+    margin-left: 1.5rem;
+    padding: 1rem;
     text-align: center;
-    background-color: #f1f2f2;
-    width: 20%;
+    background-color: rgba(248, 251, 255, 0.9);
+    border: 1px solid var(--card-border);
+    border-radius: 8px;
+    width: min(20%, 250px);
     position: sticky;
-    top: 2vh;
+    top: 1rem;
+    box-shadow: 0 0.5rem 1.2rem rgba(48, 73, 131, 0.14);
     
     @media screen and (max-width: 750px) {
-        background-color: transparent;
-        margin: 0 auto;
-        position: static;
+        background-color: rgba(215, 229, 244, 0.96);
+        border-left: 0;
+        border-right: 0;
+        border-radius: 0;
+        box-shadow: 0 0.25rem 0.8rem rgba(48, 73, 131, 0.16);
+        margin: 0;
+        position: sticky;
+        top: 0;
+        z-index: 10;
         width: 100%;
-        padding: 2vh 0;
-        overflow-x: auto;
+        padding: 0.75rem 0;
+        overflow-x: visible;
     }
     
 `;
 
 const NavUl = styled.ul`
     list-style: none;
-    padding-left: 2vw;
+    padding-left: 0;
+    margin-bottom: 0;
     
     @media screen and (max-width: 750px) {
         margin: 0;
-        padding: 0 2vw;
+        padding: 0 1rem;
         display: flex;
         justify-content: center;
-        gap: 2vw;
-        flex-wrap: nowrap;
+        gap: 0.75rem;
+        flex-wrap: wrap;
     }
     
 `;
@@ -41,29 +49,33 @@ const NavUl = styled.ul`
 const NavLi = styled.li`
     @media screen and (max-width: 750px) {
         margin: 0;
-        flex: 0 0 auto;
+        flex: 1 1 8.5rem;
     }
 `;
 
 const NavLink = styled.a`
     text-decoration: none;
-    border: black solid 1px;
-    padding-bottom: 5%;
-    padding-top: 5%;
-    background-color: #304983;
-    color: #e5effd;
-    font: calc(2px + 1.8vh) "Lucida Console", Monaco, monospace;
+    border: 1px solid var(--accent);
+    border-radius: 6px;
+    padding: 0.75rem 0.8rem;
+    background-color: var(--accent);
+    color: #f8fbff;
+    font: 600 clamp(0.9rem, 1.2vw, 1rem) Inter, "Segoe UI", Arial, sans-serif;
     display: block;
-    margin-bottom: 10%;
+    margin-bottom: 0.75rem;
+    transition: background-color 160ms ease, transform 160ms ease;
+
+    &:hover {
+        background-color: var(--accent-dark);
+        transform: translateY(-1px);
+    }
     
     @media screen and (max-width: 750px) {
-        padding: 1vh 1.5vw;
+        padding: 0.65rem 0.9rem;
+        margin-bottom: 0;
         white-space: nowrap;
+        text-align: center;
         
-    }
-
-    @media screen and (max-width: 1000px) {
-        font-size: calc(2px + 1.4vw);
     }
     
 `;

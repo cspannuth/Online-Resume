@@ -7,31 +7,32 @@ import Education from "./components/mains/Education.tsx";
 import Skills from "./components/mains/Skills.tsx";
 import Projects from "./components/mains/Projects.tsx";
 import Contact from "./components/mains/Contact.tsx";
-import styled, {createGlobalStyle} from "styled-components";
-
-const GlobalStyle = createGlobalStyle`
-    html {
-        scroll-behavior: smooth;
-    }
-`;
+import styled from "styled-components";
 
 const Body = styled.div`
 
     min-height: 100vh;
     margin: 0 auto;
     display: flex;
-    background-color: #c0d6ef;
+    background-color: var(--page-bg);
     align-items: flex-start;
+    gap: 1.5rem;
+    padding-right: 1.5rem;
     
     @media screen and (max-width: 750px) {
         flex-direction: column;
+        gap: 0;
+        padding-right: 0;
     }
 `;
 
 const Page = styled.div`
-    width: 80%;
+    width: min(78%, 1100px);
+    margin: 0 auto;
+
     @media screen and (max-width: 750px) {
         width: 100%;
+        padding: 0 1rem;
     }
     
 `;
@@ -44,7 +45,6 @@ const Section = styled.section`
 export default function App() {
   return (
     <>
-      <GlobalStyle />
       <Header />
       <Body>
           <Nav />

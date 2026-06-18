@@ -1,11 +1,13 @@
 import styled from "styled-components";
 
 const Title= styled.h1`
-    padding-top: 2%;
+    padding-top: 2rem;
+    padding-bottom: 1.25rem;
     text-align: center;
-    font-family: "Lucida Handwriting", "Lucida Console", Monaco, monospace;
-    font-size: calc(2px + 5vh);
-    font-weight: bold;
+    font-family: Inter, "Segoe UI", Arial, sans-serif;
+    font-size: clamp(2rem, 4vw, 3rem);
+    font-weight: 800;
+    letter-spacing: 0;
 `;
 
 const BUpic = styled.img`
@@ -31,7 +33,7 @@ const OJRpic = styled.img`
 `;
 
 const InsideH1Div = styled.div`
-    margin: 1vh 1vw 5vw;
+    margin: 0 1vw 3rem;
 `;
 
 const ContentDiv = styled.div`
@@ -42,25 +44,25 @@ const EducationCard = styled.article`
     display: flex;
     align-items: center;
     gap: 3vw;
-    background-color: #e5effd;
-    border: 1px solid #304983;
-    border-left: 0.7vw solid #304983;
-    margin: 0 0 2vh;
-    padding: 3%;
-    box-shadow: 0 0.5vh 1vh rgba(48, 73, 131, 0.18);
+    background-color: var(--card-bg);
+    border: 1px solid var(--card-border);
+    border-left: 0.45rem solid var(--accent);
+    border-radius: 8px;
+    margin: 0 0 1.25rem;
+    padding: 1.5rem;
+    box-shadow: 0 0.5rem 1.2rem rgba(48, 73, 131, 0.14);
     transition: transform 160ms ease, box-shadow 160ms ease, border-color 160ms ease;
 
     &:hover {
-        border-color: #1f356b;
-        box-shadow: 0 0.9vh 1.6vh rgba(48, 73, 131, 0.28);
-        transform: translateY(-0.4vh);
+        border-color: var(--accent-dark);
+        box-shadow: 0 0.75rem 1.5rem rgba(48, 73, 131, 0.2);
+        transform: translateY(-2px);
     }
 
     @media screen and (max-width: 750px) {
         align-items: flex-start;
-        border-left-width: 1.5vw;
         flex-direction: column;
-        margin-bottom: 2.5vh;
+        margin-bottom: 1.25rem;
     }
 `;
 
@@ -69,25 +71,28 @@ const EducationText = styled.div`
 `;
 
 const DegreeTitles = styled.h1`
-    font: bold calc(2px + 1.8vh) "Lucida Console", Monaco, monospace;
+    font: 700 clamp(1.1rem, 2vw, 1.35rem) Inter, "Segoe UI", Arial, sans-serif;
+    line-height: 1.35;
 `;
 
 const DegreeInfo = styled.p`
-    font: calc(2px + 1.5vh) "Lucida Console", Monaco, monospace;
-    padding-left: 2vw;
-    padding-top: 1vw;
-    padding-bottom: 1vh;
+    color: var(--muted-text);
+    font-size: 1rem;
+    line-height: 1.6;
+    padding-left: 1rem;
+    padding-top: 0.75rem;
+    padding-bottom: 0.5rem;
     text-align: left;
 `;
 
 const CourseworkUl = styled.ul`
-    font: calc(2px + 1.5vh) "Lucida Console", Monaco, monospace;
-    padding-top: 1vh;
+    padding-top: 0.75rem;
 `;
 
 const CourseworkLi = styled.li`
-    font: calc(2px + 1.3vh) "Lucida Console", Monaco, monospace;
-    padding-bottom: 1vh;
+    font-size: 0.98rem;
+    line-height: 1.55;
+    padding-bottom: 0.65rem;
 `;
 
 export default function Education() {

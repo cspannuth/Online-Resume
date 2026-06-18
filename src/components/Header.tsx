@@ -1,23 +1,25 @@
 import styled from "styled-components";
 
 const Name = styled.h1`
-    padding-top: 2%;
-    padding-left: 3%;
-    padding-bottom: 2%;
+    padding: 1.4rem 3% 0.4rem;
+    font-size: clamp(2rem, 5vw, 3.6rem);
+    letter-spacing: 0;
 `;
 
 const HeaderS = styled.header`
-    font: calc(2px + 2.5vh) "Lucida Console", Monaco, monospace;
+    font-family: Inter, "Segoe UI", Arial, sans-serif;
     text-align: left;
-    background-color: #304983;
-    color: #f1f2f2;
+    background-color: var(--accent);
+    color: #f8fbff;
     margin: auto;
+    box-shadow: 0 0.3rem 1rem rgba(31, 53, 107, 0.22);
 `;
 
 const Summary = styled.p`
-    font-size: calc(2px + 1.5vh);
-    padding-left: 3%;
-    padding-bottom: 1.5%;
+    color: #dce8f7;
+    font-size: clamp(1rem, 2vw, 1.25rem);
+    line-height: 1.5;
+    padding: 0 3% 1.25rem;
 `;
 
 export default function Header() {

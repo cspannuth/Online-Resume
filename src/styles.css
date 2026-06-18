@@ -1,0 +1,30 @@
+:root {
+    --page-bg: #d7e5f4;
+    --card-bg: #f8fbff;
+    --card-border: #b6c7df;
+    --accent: #304983;
+    --accent-dark: #1f356b;
+    --text: #17233a;
+    --muted-text: #465773;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    background-color: var(--page-bg);
+    color: var(--text);
+    font-family: Inter, "Segoe UI", Arial, sans-serif;
+}
+
+h1,
+p,
+ul {
+    margin-top: 0;
+}

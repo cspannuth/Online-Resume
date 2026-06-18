@@ -6,50 +6,53 @@ const Content = styled.div`
 `;
 
 const HomeH1 = styled.h1`
-    padding-top: 2%;
-    padding-bottom: 2%;
+    padding-top: 2rem;
+    padding-bottom: 1.25rem;
     text-align: center;
-    font-family: "Lucida Handwriting", "Lucida Console", Monaco, monospace;
-    font-size: calc(2px + 5vh);
-    font-weight: bold;
-    
+    font-family: Inter, "Segoe UI", Arial, sans-serif;
+    font-size: clamp(2rem, 4vw, 3rem);
+    font-weight: 800;
+    letter-spacing: 0;
 `;
 
 const P = styled.p`
-    background-color: #e5effd;
-    margin-right: 2%;
-    margin-left: 2%;
-    margin-bottom: 5%;
-    border: 1px solid #e5effd;
-    padding: 5%;
-    font: calc(2px + 1.2vw) "Lucida Console", Monaco, monospace;
-    text-align: center;
-
-    @media screen and (max-width: 1000px) {
-        font-size: calc(2px + 1.8vw);
-    }
+    background-color: var(--card-bg);
+    margin: 0 2% 5%;
+    border: 1px solid var(--card-border);
+    border-left: 0.45rem solid var(--accent);
+    border-radius: 8px;
+    padding: clamp(1.25rem, 4vw, 3rem);
+    font-size: clamp(1rem, 1.5vw, 1.15rem);
+    line-height: 1.75;
+    text-align: left;
+    box-shadow: 0 0.5rem 1.2rem rgba(48, 73, 131, 0.14);
     
     @media screen and (max-width: 750px) {
-        font-size: calc(2px + 3vw);
+        margin-left: 0;
+        margin-right: 0;
     }
 `;
 
 const Image = styled.img`
-    width: 20vw;
-    height: 40vh;
-    max-height: 100%;
-    padding-left: 2%;
+    width: 30%;
+    height: 150%;
+    display: block;
+    border-radius: 6px;
+    border: 0.35rem solid var(--card-bg);
+    outline: 1px solid var(--card-border);
+    margin-left: 2%;
+    box-shadow: 0 0.5rem 1.2rem rgba(48, 73, 131, 0.14);
 
     @media screen and (max-width: 750px) {
-        width: 30vw;
-        height: 20vh;
-        padding-left: 0;
-        margin-bottom: 2vh;
+        width: min(65vw, 240px);
+        margin-left: 0;
+        margin-bottom: 1.25rem;
     }
 `;
 
 const Div = styled.div`
     display: flex;
+    gap: 1.5rem;
     
     @media screen and (max-width: 750px) {
         align-items: center;

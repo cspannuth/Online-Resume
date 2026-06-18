@@ -1,44 +1,46 @@
 import styled from "styled-components";
 
 const Title = styled.h1`
-    padding-top: 2%;
+    padding-top: 2rem;
+    padding-bottom: 1.25rem;
     text-align: center;
-    font-family: "Lucida Handwriting", "Lucida Console", Monaco, monospace;
-    font-size: calc(2px + 5vh);
-    font-weight: bold;
+    font-family: Inter, "Segoe UI", Arial, sans-serif;
+    font-size: clamp(2rem, 4vw, 3rem);
+    font-weight: 800;
+    letter-spacing: 0;
 `;
 
 const ContentWrapper= styled.div`
-    font: calc(2px + 0.7vh) "Lucida Console", Monaco, monospace;
-    margin: 2vh 1vw 10vh 1vw;
-    padding: 1vh 0 2vh;
+    margin: 0 1vw 4rem;
+    padding: 0 0 2rem;
 `;
 
 const PositionCard = styled.article`
-    background-color: #e5effd;
-    border: 1px solid #304983;
-    border-left: 0.7vw solid #304983;
-    margin: 0 0 2vh;
-    padding: 2vh 1vw 1vh 1vw;
-    box-shadow: 0 0.5vh 1vh rgba(48, 73, 131, 0.18);
+    background-color: var(--card-bg);
+    border: 1px solid var(--card-border);
+    border-left: 0.45rem solid var(--accent);
+    border-radius: 8px;
+    margin: 0 0 1.25rem;
+    padding: 1.25rem;
+    box-shadow: 0 0.5rem 1.2rem rgba(48, 73, 131, 0.14);
     transition: transform 160ms ease, box-shadow 160ms ease, border-color 160ms ease;
 
     &:hover {
-        border-color: #1f356b;
-        box-shadow: 0 0.9vh 1.6vh rgba(48, 73, 131, 0.28);
-        transform: translateY(-0.4vh);
+        border-color: var(--accent-dark);
+        box-shadow: 0 0.75rem 1.5rem rgba(48, 73, 131, 0.2);
+        transform: translateY(-2px);
     }
 
     @media screen and (max-width: 750px) {
-        border-left-width: 1.5vw;
-        margin-bottom: 2.5vh;
+        margin-bottom: 1.25rem;
     }
 `;
 
 const PosTitle = styled.h1`
-    margin-top: 3vh;
-    margin-bottom: 1vh;
-    font-size: calc(2px + 2vh);
+    margin-top: 1.5rem;
+    margin-bottom: 0.75rem;
+    font-size: clamp(1.1rem, 2vw, 1.35rem);
+    line-height: 1.35;
 `;
 
 const FirstPosTitle = styled(PosTitle)`
@@ -47,9 +49,11 @@ const FirstPosTitle = styled(PosTitle)`
 
 const PosContent = styled.p`
     text-align: left;
-    font-size: calc(2px + 1.5vh);
-    padding: 0.5vh 1vw 1vh 1vw;
-    margin-bottom: 1vh;
+    color: var(--muted-text);
+    font-size: 1rem;
+    line-height: 1.65;
+    padding: 0.25rem 0 0.75rem;
+    margin-bottom: 0.5rem;
 `;
 
 const Ul = styled.ul`
@@ -57,9 +61,10 @@ const Ul = styled.ul`
 `;
 
 const Li = styled.li`
-    margin-top: 1vh;
-    font-size: calc(2px + 1.3vh);
-    margin-bottom: 1vh;
+    margin-top: 0.65rem;
+    font-size: 0.98rem;
+    line-height: 1.55;
+    margin-bottom: 0.65rem;
 `;
 
 export default function Experience() {
@@ -74,11 +79,16 @@ export default function Experience() {
                 <PositionCard>
                     <FirstPosTitle>Software Engineer Intern | Y STEM and Chess Inc | Boise, ID | May 2026 - Present</FirstPosTitle>
                     <PosContent>Currently working with a non-profit organization to develop chess mentoring software for underprivileged kids.</PosContent>
+                    <Ul>
+                        <Li>Managed and reviewed outstanding PR's through white and black box testing methodologies.</Li>
+                        <Li>Led the puzzle themes project aimed to engineer new ways to teach chess.</Li>
+                    </Ul>
                 </PositionCard>
                 <PositionCard>
                     <FirstPosTitle>Software Engineer | Laughing Rock Technology, LLC | Reading, PA | March 2026 - Present</FirstPosTitle>
-                    <PosContent>Currently working as a software engineer contributing to a variety of projects which serve our commercial clients.</PosContent>
+                    <PosContent>Currently working as a lead software engineer contributing to a variety of projects which serve our commercial clients.</PosContent>
                     <Ul>
+                        <Li>Programmed and maintained a new website for the cabling division to host on a self-created VPS server.</Li>
                         <Li>Developed programs and scripts to automate essential and repetitive tasks saving 10+ hours of technician time per week.</Li>
                         <Li>Built custom software solutions to solve client-specific problems with respect to security and compliance.</Li>
                     </Ul>

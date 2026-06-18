@@ -2,18 +2,20 @@ import styled from "styled-components";
 
 const Title = styled.h1`
     text-align: center;
-    font-family: "Lucida Handwriting", "Lucida Console", Monaco, monospace;
-    font-size: calc(2px + 5vh);
-    font-weight: bold;
-    padding-top: 2%;
+    font-family: Inter, "Segoe UI", Arial, sans-serif;
+    font-size: clamp(2rem, 4vw, 3rem);
+    font-weight: 800;
+    letter-spacing: 0;
+    padding-top: 2rem;
+    padding-bottom: 1.25rem;
 `;
 
 const ContentWrapper = styled.div`
-    margin: 1vh 1vw 1vh;
-    padding: 1vh 0 2vh;
+    margin: 0 1vw 1rem;
+    padding: 0 0 2rem;
     display: grid;
     grid-template-columns: minmax(0, 58%) minmax(220px, 1fr);
-    gap: 2vw;
+    gap: 1.5rem;
     align-items: center;
 
     @media screen and (max-width: 750px) {
@@ -27,30 +29,30 @@ const SkillCards = styled.div`
 `;
 
 const SkillCard = styled.article`
-    background-color: #e5effd;
-    border: 1px solid #304983;
-    border-left: 0.7vw solid #304983;
-    margin: 0 0 2vh;
-    padding: 3%;
-    box-shadow: 0 0.5vh 1vh rgba(48, 73, 131, 0.18);
+    background-color: var(--card-bg);
+    border: 1px solid var(--card-border);
+    border-left: 0.45rem solid var(--accent);
+    border-radius: 8px;
+    margin: 0 0 1.25rem;
+    padding: 1.25rem;
+    box-shadow: 0 0.5rem 1.2rem rgba(48, 73, 131, 0.14);
     transition: transform 160ms ease, box-shadow 160ms ease, border-color 160ms ease;
 
     &:hover {
-        border-color: #1f356b;
-        box-shadow: 0 0.9vh 1.6vh rgba(48, 73, 131, 0.28);
-        transform: translateY(-0.4vh);
+        border-color: var(--accent-dark);
+        box-shadow: 0 0.75rem 1.5rem rgba(48, 73, 131, 0.2);
+        transform: translateY(-2px);
     }
 
     @media screen and (max-width: 750px) {
-        border-left-width: 1.5vw;
-        margin-bottom: 2.5vh;
+        margin-bottom: 1.25rem;
     }
 `;
 
 const SkillTitle = styled.h1`
-    font: calc(2px + 2vh) "Lucida Console", Monaco, monospace;
-    padding-bottom: 1vh;
-    padding-top: 1vh;
+    font: 700 clamp(1.1rem, 2vw, 1.35rem) Inter, "Segoe UI", Arial, sans-serif;
+    padding-bottom: 0.75rem;
+    padding-top: 0.25rem;
 `;
 
 const Ul = styled.ul`
@@ -58,8 +60,10 @@ const Ul = styled.ul`
 `;
 
 const Li = styled.li`
-    font: calc(2px + 1.3vh) "Lucida Console", Monaco, monospace;
-    padding-bottom: 1vh;
+    color: var(--muted-text);
+    font-size: 0.98rem;
+    line-height: 1.55;
+    padding-bottom: 0.65rem;
 `;
 
 const MediaColumn = styled.div`
@@ -74,8 +78,9 @@ const MediaImage = styled.img`
     width: 100%;
     max-height: 32vh;
     object-fit: cover;
-    border: 1px solid #304983;
-    box-shadow: 0 0.5vh 1vh rgba(48, 73, 131, 0.18);
+    border: 1px solid var(--card-border);
+    border-radius: 8px;
+    box-shadow: 0 0.5rem 1.2rem rgba(48, 73, 131, 0.14);
 
     @media screen and (max-width: 750px) {
         max-height: 45vh;
