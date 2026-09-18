@@ -77,7 +77,16 @@ export default function Experience() {
 
             <ContentWrapper>
                 <PositionCard>
-                    <FirstPosTitle>Software Engineer Intern | Y STEM and Chess Inc | Boise, ID | May 2026 - Present</FirstPosTitle>
+                    <FirstPosTitle>Course Instructor | Boston University | Boston, MA | Aug 2026 - Present</FirstPosTitle>
+                    <PosContent>Currently assisting the instruction of CS303: Web Application Development under the CS Department at Boston University.</PosContent>
+                    <Ul>
+                        <Li>Independently leading lab sessions for classes of more than 60 students</Li>
+                        <Li>Developing practice materials, conducting office hours, and mentoring students through coursework</Li>
+                        <Li>Delivering full 75-minute lectures on multiple occasions</Li>
+                    </Ul>
+                </PositionCard>
+                <PositionCard>
+                    <FirstPosTitle>Software Engineer Intern | Y STEM and Chess Inc | Boise, ID | May 2026 - Jul 2026</FirstPosTitle>
                     <PosContent>Currently working with a non-profit organization to develop chess mentoring software for underprivileged kids.</PosContent>
                     <Ul>
                         <Li>Managed and reviewed outstanding PR's through white and black box testing methodologies.</Li>
@@ -85,10 +94,10 @@ export default function Experience() {
                     </Ul>
                 </PositionCard>
                 <PositionCard>
-                    <FirstPosTitle>Software Engineer | Laughing Rock Technology, LLC | Reading, PA | March 2026 - Present</FirstPosTitle>
-                    <PosContent>Currently working as a lead software engineer contributing to a variety of projects which serve our commercial clients.</PosContent>
+                    <FirstPosTitle>Software Engineer | Laughing Rock Technology, LLC | Reading, PA | Mar 2026 - Aug 2026</FirstPosTitle>
+                    <PosContent>Previously worked as a lead software engineer contributing to a variety of projects which serve our commercial clients.</PosContent>
                     <Ul>
-                        <Li>Programmed and maintained a new website for the cabling division to host on a self-created VPS server.</Li>
+                        <Li>Programmed and maintained two commercial websites to host on a self-created VPS server.</Li>
                         <Li>Developed programs and scripts to automate essential and repetitive tasks saving 10+ hours of technician time per week.</Li>
                         <Li>Built custom software solutions to solve client-specific problems with respect to security and compliance.</Li>
                     </Ul>

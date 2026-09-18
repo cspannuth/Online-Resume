@@ -73,9 +73,8 @@ export default function Home() {
                     A dedicated computer science student at Boston University with a strong passion for technology. My
                     experience ranges from developing and testing automated bots to managing a limited-edition sneaker reselling business
                     during my youth to managing IT infrastructure for numerous commercial clients.
-                    <br/><br/>Currently working as a software engineer in the commercial space leveraging my technical
-                    skills, creative problem-solving abilities, and entrepreneurial mindset in a dynamic, results-oriented
-                    environment.
+                    <br/><br/>Currently serving as a Teaching Assistant in the Computer Science department, applying strong technical knowledge, communication skills,
+                    and problem-solving abilities to support student learning, explain complex concepts, and contribute to an engaging and collaborative academic environment.
                     <br/><br/>Growing up in a manufacturing-focused upbringing, I developed a keen interest in this
                     industry, fueling my goal to design and implement enterprise resource planning systems for
                     commercial enterprises.
