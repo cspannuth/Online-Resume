@@ -77,7 +77,7 @@ export default function Experience() {
 
             <ContentWrapper>
                 <PositionCard>
-                    <FirstPosTitle>Course Instructor | Boston University | Boston, MA | Aug 2026 - Present</FirstPosTitle>
+                    <FirstPosTitle>Teaching Assistant | Boston University | Boston, MA | Aug 2026 - Present</FirstPosTitle>
                     <PosContent>Currently assisting the instruction of CS303: Web Application Development under the CS Department at Boston University.</PosContent>
                     <Ul>
                         <Li>Independently leading lab sessions for classes of more than 60 students</Li>
