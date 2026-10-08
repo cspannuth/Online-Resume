@@ -104,7 +104,7 @@ export default function Experience() {
                 </PositionCard>
                 <PositionCard>
                     <FirstPosTitle>IT Technician | Laughing Rock Technology, LLC | Reading, PA | Aug 2025 -
-                        Apr 2026</FirstPosTitle>
+                        Mar 2026</FirstPosTitle>
                     <PosContent>Previously worked with a team of technicians on a commercial scale to
                         provide information technology, networking, and
                         cybersecurity solutions to hundreds of clients across the Greater Berks area.</PosContent>
