@@ -94,7 +94,7 @@ export default function Experience() {
                     </Ul>
                 </PositionCard>
                 <PositionCard>
-                    <FirstPosTitle>Software Engineer | Laughing Rock Technology, LLC | Reading, PA | Mar 2026 - Aug 2026</FirstPosTitle>
+                    <FirstPosTitle>Software Engineer | Laughing Rock Technology, LLC | Reading, PA | Mar 2026 - May 2026</FirstPosTitle>
                     <PosContent>Previously worked as a lead software engineer contributing to a variety of projects which serve our commercial clients.</PosContent>
                     <Ul>
                         <Li>Programmed and maintained two commercial websites to host on a self-created VPS server.</Li>
