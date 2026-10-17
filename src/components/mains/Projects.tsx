@@ -109,6 +109,7 @@ const StyleLink = styled.a`
 export default function Projects() {
     const [showArbitrage, setShowArbitrage] = useState(false);
     const [showVenderLo, setShowVenderLo] = useState(false);
+    const [showSentinel, setShowSentinel] = useState(false);
 
     return (
         <div>
@@ -117,6 +118,26 @@ export default function Projects() {
         </Title>
 
         <ContentWrapper>
+            <ProjectCard onClick={() => setShowSentinel(!showSentinel)}>
+                <ProjectTitle><StyleLink
+                    href="https://github.com/cspannuth/Sentinel">Sentinel - AI Malware Detection Engine</StyleLink></ProjectTitle>
+                <P>I am currently developing a Rust-based malware detection engine leveraging SHA-256 hashing, YARA-X signature matching, and static
+                    executable analysis to identify potential security threats.
+                </P>
+                <Ul>
+                    <Li>Building an AI-powered classification pipeline to detect suspicious Windows executables using machine learning and
+                        extracted binary features.</Li>
+                    <Li>Designing a cross-platform desktop interface using Tauri and React to provide detailed threat assessments, scan reports, and file analysis.</Li>
+                </Ul>
+            </ProjectCard>
+            {showSentinel &&
+                <DetailCard>
+                    <ScreenshotGrid>
+                        <ProjectImage src="/Sentinel-Dash.png" alt="Sentinel Dashboard" />
+                        <ProjectImage src="/Sentinel-Scan.png" alt="Sentinel Test Virus Scan" />
+                    </ScreenshotGrid>
+                </DetailCard>
+            }
             <ProjectCard onClick={() => setShowArbitrage(!showArbitrage)}>
                 <ProjectTitle><StyleLink
                     href="https://github.com/cspannuth/Arbitrage_Engine">Sportsbook Arbitrage Engine</StyleLink></ProjectTitle>
@@ -145,7 +166,7 @@ export default function Projects() {
                 their communities.</P>
                 <Ul>
                     <Li>Incorporates secure cookie based authentication with crypto hashing</Li>
-                    <Li>Stores all data using NoSQL for persistence</Li>
+                    <Li>Stores all data using MongoDB for persistence</Li>
                     <Li>Utilizes Redis for cache based quick access</Li>
                     <Li>Features Next.js for server-side backend management</Li>
                 </Ul>
@@ -158,22 +179,6 @@ export default function Projects() {
                     </ScreenshotGrid>
                 </DetailCard>
             }
-            <ProjectCard>
-                <ProjectTitle><StyleLink
-                    href="https://github.com/cspannuth/Side-Projects/tree/638764e2eca6a239ebfefdbac47de5041641c983/Spell%20Checker">Spell
-                    Checker</StyleLink></ProjectTitle>
-                <P>I am currently developing a Spell Checker program written in C that utilizes
-                    Trie Trees, a fundamental data structure
-                    and levenshtein's distance algorithm. Thus far I have built a terminal version of the program, and am
-                    working on implementing a full UI using the
-                    base Win32 API library. Some skills utilized are:
-                </P>
-                <Ul>
-                    <Li>C</Li>
-                    <Li>Design structure and analysis</Li>
-                    <Li>Analysis of algorithms</Li>
-                </Ul>
-            </ProjectCard>
         </ContentWrapper>
 
     </div>);

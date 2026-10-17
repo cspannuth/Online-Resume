@@ -99,42 +99,61 @@ export default function Skills() {
             <ContentWrapper>
                 <SkillCards>
                     <SkillCard>
-                        <SkillTitle>Tech Stack</SkillTitle>
+                        <SkillTitle>Languages</SkillTitle>
                         <Ul>
-                            <Li>Python - NumPy & Pandas</Li>
+                            <Li>Python</Li>
                             <Li>Java</Li>
                             <Li>C</Li>
-                            <Li>JavaScript / TypeScript - React</Li>
-                            <Li>OCaml</Li>
-                            <Li>HTML & CSS</Li>
+                            <Li>JavaScript / TypeScript</Li>
+                            <Li>SQL</Li>
+                            <Li>Go</Li>
                         </Ul>
                     </SkillCard>
                     <SkillCard>
-                        <SkillTitle>Technological Skills</SkillTitle>
+                        <SkillTitle>Frameworks & Libraries</SkillTitle>
                         <Ul>
-                            <Li>Information Technology</Li>
-                            <Li>Networking</Li>
-                            <Li>Cyber Security</Li>
-                            <Li>Artificial Intelligence</Li>
-                            <Li>Machine Learning</Li>
-                            <Li>Cloud Services</Li>
-                            <Li>Microsoft Administration Suite</Li>
+                            <Li>React</Li>
+                            <Li>Next.js</Li>
+                            <Li>FastAPI</Li>
+                            <Li>Node.js</Li>
+                            <Li>NumPy</Li>
+                            <Li>Pandas</Li>
+                        </Ul>
+                    </SkillCard>
+                    <SkillCard>
+                        <SkillTitle>Databases</SkillTitle>
+                        <Ul>
+                            <Li>PostgreSQL</Li>
+                            <Li>Redis</Li>
+                            <Li>MongoDB</Li>
+                        </Ul>
+                    </SkillCard>
+                    <SkillCard>
+                        <SkillTitle>Tools & Technologies</SkillTitle>
+                        <Ul>
                             <Li>Git</Li>
-                            <Li>AWS</Li>
+                            <Li>Docker</Li>
+                            <Li>Linux</Li>
+                            <Li>REST APIs</Li>
+                            <Li>YARA-X</Li>
+                            <Li>Software Testing</Li>
                         </Ul>
                     </SkillCard>
                     <SkillCard>
-                        <SkillTitle>General Skills</SkillTitle>
+                        <SkillTitle>Additional</SkillTitle>
                         <Ul>
-                            <Li>Employee Management</Li>
-                            <Li>Dedicated Learner</Li>
-                            <Li>Ability to work effectively in team environments</Li>
+                            <Li>Agile / Scrum</Li>
+                            <Li>Networking</Li>
+                            <Li>Cybersecurity & Compliance</Li>
                         </Ul>
                     </SkillCard>
                 </SkillCards>
                 <MediaColumn>
+                    <MediaImage src="/Lecturing.jpeg" alt="Teaching a lecture at Boston University" />
                     <MediaImage src="/medai.jpg" alt="Medical AI project interface" />
+                    <MediaImage src="/elastic-net.png" alt="Picture of Elastic Neural Network Training" />
                     <MediaImage src="/raspi.jpeg" alt="Raspberry Pi hardware project" />
+
                 </MediaColumn>
             </ContentWrapper>
 

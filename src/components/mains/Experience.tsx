@@ -87,19 +87,19 @@ export default function Experience() {
                 </PositionCard>
                 <PositionCard>
                     <FirstPosTitle>Software Engineer Intern | Y STEM and Chess Inc | Boise, ID | May 2026 - Jul 2026</FirstPosTitle>
-                    <PosContent>Currently working with a non-profit organization to develop chess mentoring software for underprivileged kids.</PosContent>
+                    <PosContent>Previously worked with a non-profit organization to develop chess mentoring software for underprivileged kids.</PosContent>
                     <Ul>
-                        <Li>Managed and reviewed outstanding PR's through white and black box testing methodologies.</Li>
-                        <Li>Led the puzzle themes project aimed to engineer new ways to teach chess.</Li>
+                        <Li>Reviewed and validated pull requests using white-box and black-box testing, identifying defects, and verifying functionality.</Li>
+                        <Li>Led the puzzle themes project aimed at engineering new ways to teach chess.</Li>
                     </Ul>
                 </PositionCard>
                 <PositionCard>
                     <FirstPosTitle>Software Engineer | Laughing Rock Technology, LLC | Reading, PA | Mar 2026 - May 2026</FirstPosTitle>
                     <PosContent>Previously worked as a lead software engineer contributing to a variety of projects which serve our commercial clients.</PosContent>
                     <Ul>
-                        <Li>Programmed and maintained two commercial websites to host on a self-created VPS server.</Li>
-                        <Li>Developed programs and scripts to automate essential and repetitive tasks saving 10+ hours of technician time per week.</Li>
-                        <Li>Built custom software solutions to solve client-specific problems with respect to security and compliance.</Li>
+                        <Li>Developed and maintained two commercial web applications deployed on a self-managed VPS.</Li>
+                        <Li>Automated repetitive technician workflows with custom scripts saving 10+ hours of manual work per week.</Li>
+                        <Li>Engineered custom software solutions for commercial clients with security, compliance, and operational requirements.</Li>
                     </Ul>
                 </PositionCard>
                 <PositionCard>
@@ -108,6 +108,10 @@ export default function Experience() {
                     <PosContent>Previously worked with a team of technicians on a commercial scale to
                         provide information technology, networking, and
                         cybersecurity solutions to hundreds of clients across the Greater Berks area.</PosContent>
+                    <Ul>
+                        <Li>Resolved software, hardware, and networking issues for commercial clients through remote and on-site support.</Li>
+                        <Li>Tested and repaired computer hardware while working directly with clients to identify and resolve technical needs.</Li>
+                    </Ul>
                 </PositionCard>
                 <PositionCard>
                     <FirstPosTitle>IT & Cybersecurity Intern | Laughing Rock Technology, LLC | Reading, PA | May
@@ -121,9 +125,7 @@ export default function Experience() {
                         </Li>
                         <Li>Estimated, installed, and monitored full scale commercial networks.</Li>
                         <Li>Utilized remote management for over 1500+ endpoints.</Li>
-                        <Li>Led a cyber security project auditing conditional access as well as
-                            ensuring security and compliance through 2FA for 30+ tenants.
-                        </Li>
+                        <Li>Led several cyber security projects focused on auditing security and compliance.</Li>
                     </Ul>
                 </PositionCard>
             </ContentWrapper>

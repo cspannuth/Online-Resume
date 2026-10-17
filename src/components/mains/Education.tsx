@@ -121,7 +121,7 @@ export default function Education() {
                                 Notable Coursework Taken:
                                 <CourseworkUl>
                                     <CourseworkLi>CS330: Analysis of Algorithms</CourseworkLi>
-                                    <CourseworkLi>CS391: Web Development with React</CourseworkLi>
+                                    <CourseworkLi>CS351: Distributed Computing</CourseworkLi>
                                     <CourseworkLi>CS411: Software Engineering</CourseworkLi>
                                     <CourseworkLi>CS440: Intro to Artificial Intelligence</CourseworkLi>
                                 </CourseworkUl>
