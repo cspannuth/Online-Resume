@@ -109,7 +109,7 @@ const StyleLink = styled.a`
 export default function Projects() {
     const [showArbitrage, setShowArbitrage] = useState(false);
     const [showVenderLo, setShowVenderLo] = useState(false);
-    const [showSentinel, setShowSentinel] = useState(false);
+    const [showSQL, setShowSQL] = useState(false);
 
     return (
         <div>
@@ -118,23 +118,22 @@ export default function Projects() {
         </Title>
 
         <ContentWrapper>
-            <ProjectCard onClick={() => setShowSentinel(!showSentinel)}>
+            <ProjectCard onClick={() => setShowSQL(!showSQL)}>
                 <ProjectTitle><StyleLink
-                    href="https://github.com/cspannuth/Sentinel">Sentinel - AI Malware Detection Engine</StyleLink></ProjectTitle>
-                <P>I am currently developing a Rust-based malware detection engine leveraging SHA-256 hashing, YARA-X signature matching, and static
-                    executable analysis to identify potential security threats.
+                    href="https://github.com/cspannuth/AI-SQL-Engine">AI SQL Engine</StyleLink></ProjectTitle>
+                <P>I am currently developing AI skill agents built upon a custom SQL parser to return, modify, and visualize data without ever typing a single query.
                 </P>
                 <Ul>
-                    <Li>Building an AI-powered classification pipeline to detect suspicious Windows executables using machine learning and
-                        extracted binary features.</Li>
-                    <Li>Designing a cross-platform desktop interface using Tauri and React to provide detailed threat assessments, scan reports, and file analysis.</Li>
+                    <Li>Engineered a deterministic Java DBMS with transactions, relational constraints, and automatic indexing.</Li>
+                    <Li>Built AI skill agents for SQL drafting and result explanation using isolated model contexts. </Li>
+                    <Li>Developed a business analytics workspace with AI chat, SQL tools, schema browsing, and data exports. </Li>
                 </Ul>
             </ProjectCard>
-            {showSentinel &&
+            {showSQL &&
                 <DetailCard>
                     <ScreenshotGrid>
-                        <ProjectImage src="/Sentinel-Dash.png" alt="Sentinel Dashboard" />
-                        <ProjectImage src="/Sentinel-Scan.png" alt="Sentinel Test Virus Scan" />
+                        <ProjectImage src="/SQL-SQL.png" alt="SQL AI Engine execution" />
+                        <ProjectImage src="SQL-AI.png" alt="SQL AI Engine Skill Agents" />
                     </ScreenshotGrid>
                 </DetailCard>
             }
